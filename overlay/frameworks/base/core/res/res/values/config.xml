@@ -392,4 +392,7 @@
     <!-- Maximum number of supported users -->
     <bool name="config_enableMultiUserUI">true</bool>
     <integer name="config_multiuserMaximumUsers">5</integer>
+
+    <!-- Whether to artificially interpret all signal strengths as one bar higher than they actually are -->
+    <bool name="config_inflateSignalStrength">true</bool>
 </resources>
