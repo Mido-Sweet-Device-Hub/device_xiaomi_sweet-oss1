@@ -383,3 +383,8 @@ on property:persist.sys.miui_optimization=true
 # Sync attribute value between system and vendor
 on property:persist.sys.mcc.mnc=*
     setprop persist.vendor.mcc.mnc ${persist.sys.mcc.mnc}
+
+# Restrict permissions to socket file 
+# to hide Magisk & co.
+    chmod 440 /proc/net/unix
+>>>>>>> 5d09979... sweet: rootdir: Hide Magisk Better
