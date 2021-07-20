@@ -47,6 +47,8 @@ system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar
 system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar
 system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
 system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so
+system_ext/lib/libldacBT_abr.so|673dadccbae6bd1ba1e57d41d9efbd1846e12bfe
+system_ext/lib/libldacBT_enc.so|a833ffdd52064334af86bfbd0acab2993ec5f96a
 system_ext/lib64/com.qualcomm.qti.imscmservice@1.0.so
 system_ext/lib64/com.qualcomm.qti.imscmservice@2.0.so
 system_ext/lib64/com.qualcomm.qti.imscmservice@2.1.so
@@ -63,6 +65,8 @@ system_ext/lib64/libdpmtcm.so
 system_ext/lib64/libfm-hci.so
 system_ext/lib64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so
+system_ext/lib64/libldacBT_abr.so|cfed102e37b7e1b637dd5d1ecdff92305390c345
+system_ext/lib64/libldacBT_enc.so|cdacf2337dc6fe6c897e7572cfdace68337a46d6
 system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvtextutils.so
 system_ext/lib64/lib-imsvt.so
