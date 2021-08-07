@@ -1933,3 +1933,32 @@ vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
 # Display calibration
 vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
+
+# ADSP Modules
+vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so
+
+# Audio FX modules
+vendor/lib/soundfx/libhwdap.so
+vendor/lib/soundfx/libswgamedap.so
+vendor/lib/soundfx/libswvqe.so
+
+# Media (Dolby)
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
+vendor/etc/dolby/dax-default.xml
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
+-vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml
+vendor/lib/libdapparamstorage.so
+vendor/lib/vendor.dolby.hardware.dms@2.0.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so
+
+# Media (stagefright)
+vendor/lib/libdeccfg.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/libstagefright_soft_ac4dec.so
+vendor/lib/libstagefright_soft_ddpdec.so
+vendor/lib/vndk/libstagefright_foundation.so
+vendor/lib/vndk/libstagefright_omx.so
+
