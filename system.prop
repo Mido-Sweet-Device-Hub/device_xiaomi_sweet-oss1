@@ -4,6 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Octavi Stuff
+ro.octavi.maintainer=~Pratyaksh.Bharadwaj~ \
+ro.octavi.version=Official \
+ro.octavi.branding.version=2.8 \
+ro.octavi.cpu=Snapdragon732G
+
 # Volume steps
 ro.config.media_vol_steps=15
 
