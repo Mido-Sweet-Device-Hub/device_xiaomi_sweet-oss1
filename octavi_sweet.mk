@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common OctaviOS configurations
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+# Bootanimation Flag
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Octavi Stuff
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_DEVICE_MAINTAINER := ~Pratyaksh.Bharadwaj~
