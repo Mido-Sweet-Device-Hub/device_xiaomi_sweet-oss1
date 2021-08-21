@@ -20,6 +20,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Octavi Stuff
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_DEVICE_MAINTAINER := ~Pratyaksh.Bharadwaj~
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device Identifier - This must come after all inclusions
 PRODUCT_NAME := octavi_sweet
