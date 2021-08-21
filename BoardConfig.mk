@@ -22,7 +22,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
+TARGET_OTA_ASSERT_DEVICE := sweet,sweetin,sweetinpro
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sm6150
