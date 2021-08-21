@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common OctaviOS configurations
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+# Inherit GApps stuff
+$(call inherit-product, vendor/gapps/gapps.mk)
+
 # Bootanimation Flag
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -21,6 +24,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_DEVICE_MAINTAINER := ~Pratyaksh.Bharadwaj~
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_GAPPS_ARCH := arm64
 
 # Device Identifier - This must come after all inclusions
 PRODUCT_NAME := octavi_sweet
