@@ -530,4 +530,7 @@
     <!-- True if the display hardware only has brightness buckets rather than a full range of
          backlight values -->
     <bool name="config_displayBrightnessBucketsInDoze">true</bool>
+
+    <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
+    <integer name="config_screenRecorderMaxFramerate">60</integer>
 </resources>
