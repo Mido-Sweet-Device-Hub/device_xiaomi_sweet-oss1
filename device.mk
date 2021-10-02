@@ -89,5 +89,8 @@ PRODUCT_PACKAGES += \
     FM2 \
     qcom.fmradio
 
-include vendor/xiaomi/sweet/sweet-vendor.mk
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
 
+include vendor/xiaomi/sweet/sweet-vendor.mk
