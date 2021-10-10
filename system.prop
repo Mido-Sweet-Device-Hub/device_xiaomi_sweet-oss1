@@ -37,3 +37,6 @@ persist.vendor.camera.facepp.fdenable=0
 
 # Octavi
 ro.octavi.maintainer=~Pratyaksh.Bharadwaj~
+
+# One handed mode
+ro.support_one_handed_mode=true
