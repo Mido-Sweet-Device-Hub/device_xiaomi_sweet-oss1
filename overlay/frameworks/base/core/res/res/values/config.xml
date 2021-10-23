@@ -379,4 +379,7 @@
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
     <bool name="config_dozeAlwaysOnEnabled">true</bool>
+
+    <!-- Whether the device supports smart pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
 </resources>
