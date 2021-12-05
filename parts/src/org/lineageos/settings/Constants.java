@@ -1,4 +1,4 @@
-package org.lineageos.settings.device;
+package org.lineageos.settings;
 
 public class Constants {
     public static final String KEY_REFRESH_RATE_CONFIG = "pref_refresh_rate_config";
