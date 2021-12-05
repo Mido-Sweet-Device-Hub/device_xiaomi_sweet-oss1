@@ -115,7 +115,7 @@ PRODUCT_COPY_FILES += \
 
 # Device Settings
 PRODUCT_PACKAGES += \
-    DeviceSettings
+    XiaomiParts
 
 # Overlays
 PRODUCT_PACKAGES += \

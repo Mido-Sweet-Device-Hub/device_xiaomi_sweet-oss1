@@ -1,4 +1,4 @@
-package org.lineageos.settings.device.utils;
+package org.lineageos.settings.utils;
 
 import android.content.SharedPreferences;
 
@@ -8,8 +8,8 @@ import android.provider.Settings;
 
 import androidx.preference.PreferenceManager;
 
-import org.lineageos.settings.device.Constants;
-import org.lineageos.settings.device.utils.FileUtils;
+import org.lineageos.settings.Constants;
+import org.lineageos.settings.utils.FileUtils;
 
 public class DisplayUtils {
     public static void setDcDimmingStatus(boolean enabled) {

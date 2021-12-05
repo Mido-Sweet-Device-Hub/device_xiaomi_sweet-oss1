@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.device;
+package org.lineageos.settings;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -25,9 +25,9 @@ import androidx.preference.Preference;
 import androidx.preference.ListPreference;
 import androidx.preference.SwitchPreference;
 
-import org.lineageos.settings.device.Constants;
-import org.lineageos.settings.device.R;
-import org.lineageos.settings.device.utils.DisplayUtils;
+import org.lineageos.settings.Constants;
+import org.lineageos.settings.R;
+import org.lineageos.settings.utils.DisplayUtils;
 
 public class MainSettingsFragment extends PreferenceFragment {
 

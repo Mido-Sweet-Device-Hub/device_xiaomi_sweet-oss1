@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.device;
+package org.lineageos.settings.;
 
 import android.provider.Settings;
 import android.content.BroadcastReceiver;
@@ -27,9 +27,9 @@ import android.os.Handler;
 
 import androidx.preference.PreferenceManager;
 
-import org.lineageos.settings.device.Constants;
-import org.lineageos.settings.device.dirac.DiracUtils;
-import org.lineageos.settings.device.utils.DisplayUtils;
+import org.lineageos.settings.Constants;
+import org.lineageos.settings.dirac.DiracUtils;
+import org.lineageos.settings.utils.DisplayUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
