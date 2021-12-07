@@ -143,6 +143,8 @@ BOARD_HAVE_QCOM_FM := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
