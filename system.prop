@@ -7,7 +7,7 @@
 # Octavi Stuff
 ro.octavi.maintainer=~Pratyaksh.Bharadwaj~ \
 ro.octavi.version=Official \
-ro.octavi.branding.version=2.8 \
+ro.octavi.branding.version=2.9.1 \
 ro.octavi.cpu=Snapdragon732G
 
 # Volume steps
