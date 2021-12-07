@@ -388,3 +388,13 @@ on property:persist.sys.mcc.mnc=*
 # Restrict permissions to socket file 
 # to hide Magisk & co.
     chmod 440 /proc/net/unix
+
+# Battery life saver
+on boot
+   chown system system /sys/class/power_supply/battery/battery_charging_enabled
+   chmod 0666 /sys/class/power_supply/battery/battery_charging_enabled
+   chown system system /sys/class/power_supply/battery/capacity
+   chmod 0666 /sys/class/power_supply/battery/capacity
+   chown system system /sys/class/power_supply/battery/temp
+   chmod 0666 /sys/class/power_supply/battery/temp
+
