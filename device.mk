@@ -12,6 +12,7 @@ $(call inherit-product, vendor/ANXCamera/anx-vendor.mk)
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
+PRODUCT_EXTRA_VNDK_VERSION := 30
 
 # Dynamic partitions setup
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
