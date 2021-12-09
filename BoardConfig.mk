@@ -8,6 +8,7 @@ DEVICE_PATH := device/xiaomi/sweet
 BOARD_VENDOR := xiaomi
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 # Architecture
 TARGET_ARCH := arm64
