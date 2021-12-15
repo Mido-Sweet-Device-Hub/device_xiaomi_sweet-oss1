@@ -22,6 +22,7 @@ OCTAVI_BUILD_TYPE := Official
 OCTAVI_DEVICE_MAINTAINER := ~Pratyaksh.Bharadwaj~
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
+WITH_GAPPS := true
 
 # Device Identifier - This must come after all inclusions
 PRODUCT_NAME := octavi_sweet
