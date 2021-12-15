@@ -14,9 +14,6 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common OctaviOS configurations
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
-# Inherit GApps stuff
-$(call inherit-product, vendor/gapps/gapps.mk)
-
 # Bootanimation Flag
 TARGET_BOOT_ANIMATION_RES := 1080
 
