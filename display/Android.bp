@@ -9,6 +9,7 @@ hwcomposer = "$(productOut)/vendor/lib64/hw/" + hwc + ".so"
 original_symbol = "_ZN3sdm14DisplayBuiltIn14SetRefreshRateEjb"
 custom_symbol = "_ZN3sdm14DisplayBuiltIn14SetRefreshCustEjb"
 
+
 cc_library_shared {
     name: "libsdmcore-shim",
     srcs: [
@@ -26,3 +27,4 @@ sweet_build_command {
          "sed -i s/" + original_symbol + "/" + custom_symbol + "/g " + libsdmcore + cmd_and +
          "sed -i s/libdisplaydebug/libsdmcore-shim/g " + hwcomposer,
     required: [hwc, "libsdmcore"],
+}
