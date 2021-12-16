@@ -25,7 +25,6 @@ import androidx.preference.PreferenceManager;
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.utils.RefreshRateUtils;
-import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.utils.FileUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
@@ -43,8 +42,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         // Doze
         DiracUtils.initialize(context);
         DozeUtils.checkDozeService(context);
-        // Thermal Profiles
-        ThermalUtils.startService(context);
 
         // DC Dimming
         boolean dcDimmingEnabled = sharedPrefs.getBoolean(DC_DIMMING_ENABLE_KEY, false);
