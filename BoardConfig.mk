@@ -57,7 +57,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
 TARGET_KERNEL_ARCH := arm64
 
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
-HOSTCFLAGS="-Wno-unused-command-line-argument"
+    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 TARGET_KERNEL_APPEND_DTB := true
 
