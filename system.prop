@@ -15,9 +15,6 @@ ro.bluetooth.library_name=libbluetooth.so
 
 # Octavi Stuff
 ro.octavi.maintainer=~Pratyaksh.Bharadwaj~
-ro.octavi.version=Official
-ro.octavi.branding.version=2.9.1
-ro.octavi.cpu=Snapdragon732G
 
 # Volume steps
 ro.config.media_vol_steps=15
