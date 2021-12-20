@@ -1,3 +1,9 @@
+#
+# Copyright (C) 2021 Octavi-OS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
