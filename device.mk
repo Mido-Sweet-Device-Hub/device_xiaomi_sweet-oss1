@@ -187,6 +187,8 @@ PRODUCT_PACKAGES += \
     qcom.fmradio
 
 # Soong namespaces
+PRODUCT_BOARD_PLATFORM := sm6150
+BOARD_USES_QCOM_HARDWARE := true
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
