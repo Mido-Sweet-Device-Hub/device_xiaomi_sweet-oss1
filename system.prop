@@ -36,7 +36,7 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 persist.vendor.camera.facepp.fdenable=0
 
 # Octavi
-ro.octavi.maintainer=~Pratyaksh.Bharadwaj~
+ro.octavi.maintainer=pbharadwaj_95
 ro.octavi.display.pid=1530755
 
 # One handed mode
