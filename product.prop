@@ -1,0 +1,2 @@
+# priv-app permissions
+ro.control_privapp_permissions=log
