@@ -241,11 +241,7 @@ vendor/etc/apdr.conf
 vendor/etc/audio_configs_stock.xml
 vendor/etc/audio_configs.xml
 vendor/etc/audio_effects.conf
-vendor/etc/audio_effects.xml
-vendor/etc/audio_io_policy.conf
-vendor/etc/audio_platform_info_intcodec.xml
 vendor/etc/audio_platform_info_qrd.xml
-vendor/etc/audio_platform_info.xml
 vendor/etc/audio_policy_engine_configuration_mi.xml
 vendor/etc/audio_policy_engine_configuration.xml
 vendor/etc/audio_policy_engine_default_stream_volumes_mi.xml
@@ -254,7 +250,6 @@ vendor/etc/audio_policy_engine_product_strategies_mi.xml
 vendor/etc/audio_policy_engine_product_strategies.xml
 vendor/etc/audio_policy_engine_stream_volumes_mi.xml
 vendor/etc/audio_policy_engine_stream_volumes.xml
-vendor/etc/audio_policy_volumes.xml
 vendor/etc/audio_tuning_mixer_tavil.txt
 vendor/etc/cacert_location.pem
 vendor/etc/camera/almalence_sr_params_tele.config
@@ -469,13 +464,9 @@ vendor/etc/media_codecs.xml
 vendor/etc/media_profiles.xml
 vendor/etc/mi_us_sweep.wav
 vendor/etc/mi_us_whitenoise.wav
-vendor/etc/mixer_paths_idp.xml
-vendor/etc/mixer_paths_overlay_dynamic.xml
-vendor/etc/mixer_paths_overlay_static.xml
 vendor/etc/mixer_paths_qrd.xml
 vendor/etc/mixer_paths_tavil.xml
 vendor/etc/mixer_paths_wcd9375qrd.xml
-vendor/etc/mixer_paths_wcd9375.xml
 vendor/etc/msm_irqbalance.conf
 vendor/etc/noise_table_64_64.rgb
 vendor/etc/permissions/android.software.vulkan.deqp.level.xml
@@ -559,7 +550,6 @@ vendor/etc/sn100u_pnx_ndi.pnscr
 vendor/etc/sn100u_pnx_pcv.pnscr
 vendor/etc/sn100u_pnx_sst.pnscr
 vendor/etc/sound_trigger_mixer_paths_qrd.xml
-vendor/etc/sound_trigger_mixer_paths_wcd9340.xml
 vendor/etc/sound_trigger_mixer_paths.xml
 vendor/etc/sound_trigger_platform_info.xml
 vendor/etc/ssg/ta_config.json
