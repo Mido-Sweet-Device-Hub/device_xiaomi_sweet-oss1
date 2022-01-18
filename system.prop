@@ -1,18 +1,3 @@
-#
-# Copyright (C) 2021 The Octavi-OS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-
-# Bluetooth
-persist.vendor.bt.a2dp.aac_whitelist=false \
-ro.bluetooth.a2dp_offload.supported=false \
-persist.bluetooth.a2dp_offload.disabled=true \
-persist.bluetooth.bluetooth_audio_hal.disabled=true \
-vendor.audio.feature.a2dp_offload.enable=false \
-persist.vendor.qcom.bluetooth.enable.splita2dp=false \
-ro.bluetooth.library_name=libbluetooth.so
-
 # Volume steps
 ro.config.media_vol_steps=15
 
